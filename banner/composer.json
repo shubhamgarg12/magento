@@ -1,0 +1,28 @@
+{
+    "name": "mma/customapi",
+    "description": "",
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.4.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MMA\\CustomApi\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "MMA/CustomApi"
+            ]
+        ]
+    }
+}
